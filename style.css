@@ -1,0 +1,112 @@
+/* Body */
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+  display: block;
+}
+
+/* Text and fonts */
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Banner component */
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://source.unsplash.com/5Ntkpxqt54Y/1600x900");
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+/* Medium link styling */
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+  color: #636363;
+}
+
+
+/* Responsive content */
+@media (width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 1320px;
+}
+
+@media (width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 1140px;
+}
+
+@media (width: 992px) {
+.container, .container-lg, .container-md, .container-sm {
+    width: 940px;
+}
+
+@media (width: 768px) {
+.container, .container-md, .container-sm {
+    width: 720px;
+}
+
+@media (width: 576px) {
+.container, .container-sm {
+    width: 540px;
+}
